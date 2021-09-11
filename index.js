@@ -7,7 +7,7 @@ localStorage.setItem("name",x);
 
 function show (){
 var x= localStorage.getItem("name");  
-var y = document.getElementById("box").innerHTML = x;
+document.getElementById("box").innerHTML = x;
 
 }
 function del (){
